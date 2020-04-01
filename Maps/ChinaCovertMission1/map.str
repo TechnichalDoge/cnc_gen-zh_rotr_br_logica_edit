@@ -1,0 +1,115 @@
+Caption Intro
+"Operation: Pearl Dragon
+\nLocation: Tanzania, East Africa"
+End
+
+Caption Objective 1
+"Objective 1:
+\nEliminate GLA forces in the Chinese base"
+End
+
+Caption Objective 2
+"Objective 2:
+\nDestroy both bridges and all Tunnel Networks"
+End
+
+Caption Mission Accomplished
+"Island secrure. Mission Accomplished."
+End
+
+SCRIPT:Briefing 1
+"The GLA have ambushed our primary base in Africa.
+If we lose it completely, our influence on the 
+continent will be jeopardised."
+End
+
+SCRIPT:Briefing 2
+"A dragon tank has survived the raid.
+Use it to assist Black Lotus in retaking the base.
+Black Lotus MUST survive."
+End
+
+SCRIPT:Propaganda Hint
+"Hint:
+Unlock the War Propaganda GP, and use the Propaganda
+Spotlight ability on vehicles to auto-heal them."
+End
+
+SCRIPT:EMP Hint
+"Hint:
+Use Black Lotus's Signal Transmitter ability
+to track vehicles and structures.
+You can overload transmitters to disable the affected units
+for a short time."
+End
+
+SCRIPT:NoCapture
+"We have no use for this GLA outpost.
+Burn it to the ground!"
+End
+
+SCRIPT:PrisonerFreed
+"Red Guard prisoner:
+Thanks for freeing us General.
+The GLA shot down one of our cargo planes about an hour ago
+and it crashed somewhere in the south-east.
+It might be worth seeing if there are any survivors."
+End
+
+SCRIPT:PlaneSurviors
+"Hacker:
+I thought we were dead.
+The main GLA base is heavily defended
+but there might be a way to sneak in the back
+and take it out."
+End
+
+SCRIPT:BaseRecaptured
+"Objective complete.
+Now that we have regained our base,
+we must secure the island."
+End
+
+SCRIPT:Objective2Briefing1
+"The GLA are using the bridges to bring in reinforcements.
+They must be destroyed."
+End
+
+SCRIPT:Objective2Briefing2
+"It would be in our best interest to destroy all Tunnel Networks as well.
+We don't want the GLA to ambush us again."
+End
+
+SCRIPT:EasterEgg
+"RedDeadSmeg 4/4/18."
+End
+
+SCRIPT:ForceFireHint
+"Hint:
+To force attack a target:
+select a unit, hold down the left Ctrl key
+and left click on the target.
+You can also use the Ground Attack or Bombard Area
+ability with some units."
+End
+
+SCRIPT:BridgesDestroyed
+"Both bridges are down.
+Excellent work general."
+End
+
+SCRIPT:TunnelsDestroyed
+"All Tunnel Networks are destroyed.
+The GLA can longer ambush us."
+End
+
+SCRIPT:MissionWin
+"With the bridges and Tunnel networks destroyed.
+we can easily take care of any GLA forces left on the island.
+Well done General."
+End
+
+SCRIPT:MissionLose
+"Black Lotus is dead.
+Mission failed."
+End

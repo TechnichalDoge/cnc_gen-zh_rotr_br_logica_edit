@@ -1,0 +1,108 @@
+SCRIPT:VenomSelfDestruct
+"Valkyrie and Viking self destruct in:"
+End
+
+Caption Intro 1
+"Operation: Yellow Dragon
+\nLocation: Hammerfest, Norway"
+End
+
+Caption Objective 1
+"Objective 1:
+\nCapture the Spy-Sat Uplink to the south."
+End
+
+Caption Objective 2
+"Objective 2:
+\nBring both Black Lotus agents close to the Venom Prototypes."
+End
+
+Caption Objective 3
+"Objective 3:
+\nDestroy Both Research Facilities.
+\nBoth suits MUST Survive."
+End
+
+Caption Objective 4
+"Objective 4:
+\nExfiltrate both Black Lotus agents."
+End
+
+Caption Objective Complete
+"Objective Complete."
+End
+
+SCRIPT:BlackLotusArrives
+"Our Black Lotus agents have arrived. Both of them MUST survive the entire mission."
+End
+
+SCRIPT:SpySatBriefing
+"Your first objective is to find out what the ECA is doing here. Capture the Spy-Sat Uplink."
+End
+
+SCRIPT:BloodhoundCaution
+"Beware of ECA Bloodhounds. They can detect stealth units and kill them with ease.
+Find another path to capture the Uplink."
+End
+
+SCRIPT:UnknownWarning
+"WARNING: We don't know what lurks in this area. Do not risk our agents lives."
+End
+
+SCRIPT:SpySatCaptured
+"Accessing ECA Video Archive. Stand by..."
+End
+
+SCRIPT:TestViking1
+"ECA Officer: 'The Viking Battlesuit can destroy enemies from a long distance with ease. She is the ultimate sniper.'"
+End
+
+SCRIPT:TestViking2
+"ECA Officer: 'The Viking is also armed with anti-air rockets for self-defence.'"
+End
+
+SCRIPT:TestValkyrie
+"ECA Officer: 'The Valkyrie has multiple weapon systems, allowing her to easily adapt to the ever-changing battlefield.'"
+End
+
+SCRIPT:DepotLocated
+"It looks like the ECA are creating prototype battlesuits. There might be a way for our Black Lotus agents to use them."
+End
+
+SCRIPT:Bloodhoundpath
+"We have also accessed the Bloodhound patrol paths. Avoid them when infiltrating the Venom depot."
+End
+
+SCRIPT:DepotInfiltrated
+"Excellent, the Black Lotus agents must get close to the Venom Prototypes."
+End
+
+SCRIPT:EnterVenomSuits
+"Each Lotus will now enter the suits. Stand by while they power up..."
+End
+
+SCRIPT:VenomOnline
+"Viking and Valkyrie are online. Use them to destroy both research facilities.
+If they are destroyed, you fail the mission."
+End
+
+SCRIPT:VenomDestructWarning
+"WARNING: The ECA have started the self destruct device in the suits!
+You must complete the mission in less than 15 minutes!."
+End
+
+SCRIPT:ResearchBaseDestroyed
+"Both research facilities are down. Go to the docks in the east for evacuation."
+End
+
+SCRIPT:EscapePlan
+"Go to the docks in the east, there the agents can escape and we can set the prototypes to self destruct."
+End
+
+SCRIPT:LotusLose
+"We have lost a Black Lotus agent. Mission failed."
+End
+
+SCRIPT:VenomLose
+"We have lost a Venom suit, the Black Lotus agent has died. Mission failed."
+End

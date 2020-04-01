@@ -1,0 +1,100 @@
+SCRIPT:Nuke Timer
+"Nuclear Strike on Drugs Lab in:"
+End
+
+Caption Intro 1
+"Operation: Long Dragon
+\nLocation: Kenya, East Africa"
+End
+
+Caption Objective 1
+"Objective 1:
+\nCapture the GLA outpost in the West"
+End
+
+Caption Objective 2
+"Objective 2:
+\nBring Black Lotus to the Signal Beacon"
+End
+
+Caption Objective 3
+"Objective 3:
+\nCapture the Drugs Lab"
+End
+
+Caption Objective 4
+"Objective 4:
+\nDestroy all GLA structures"
+End
+
+SCRIPT:Briefing 1
+"US Intellegence has discovered a large group of GLA forces near Mount Kenya."
+End
+
+SCRIPT:Briefing 2
+"Their spies have reported that a stolen cargo plane is being used to supply the GLA
+front lines with Combat Drugs."
+End
+
+SCRIPT:Briefing 3
+"Convoy trucks have also been sighted regularly in the region, 
+leading us to believe that a Chemical Lab is nearby."
+End
+
+SCRIPT:Briefing 4
+"Use Black Lotus to capture the neaby GLA outpost,
+push through the ruined town, and get her to the Chemical Bunker."
+End
+
+SCRIPT:Briefing 5
+"Once she locates the Chemical Lab, capture it,
+and we will take care of the rest."
+End
+
+SCRIPT:Demo Traps
+"WARNING: Demo traps detected! Use Black Lotus's Communication Channel Hack
+to detect and avoid them."
+End
+
+SCRIPT:Outpost Captured
+"Now, you must get Black Lotus to the Signal Flare.
+She will hide in the Supply Truck until it reaches the Drugs Lab."
+End
+
+SCRIPT:RadarVan Warning
+"Warning: GLA Observation Vans can now detect Black Lotus.
+Destroy them so she can progress unharmed."
+End
+
+SCRIPT:Signal Flare Reached
+"Objective Complete. Black Lotus has infiltrated a Supply Truck.
+It should take her right to the Drug Lab's location."
+End
+
+SCRIPT:Drug Lab Discovered
+"Black Lotus has arrived. The GLA do not know she is here and will not fire.
+Capture the Drugs Lab so we can delete the drug formulas."
+End
+
+SCRIPT:Drug Lab Captured
+"Objective complete. Formulas destroyed.
+Black Lotus has planted a Nuclear Strike Beacon,
+you may research upgrades before the missile hits."
+End
+
+SCRIPT:Shenlong
+"General Mau would like us to test his new Shenlong Tank.
+Its dual flamethrowers will melt anything in its path.
+It will assist you greatly in eliminating the GLA base."
+End
+
+SCRIPT:Mission Complete
+"Mission accomplished.
+Threat eliminated. Your work here in Africa is done General.
+We need you to investigate ECA activity in Norway."
+End
+
+SCRIPT:Mission Failed
+"Mission failed.
+Critical Unit lost."
+End

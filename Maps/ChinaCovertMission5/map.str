@@ -1,0 +1,101 @@
+SCRIPT:ICBMTimer
+"ICBM Strike in:"
+End
+
+Caption Intro
+"Operation: Jade Emperor
+\nLocation: Outside 'Dark Horseman', Southern Russia"
+End
+
+Caption Objective 1
+"Objective 1:
+\nDestroy the Russian Blockade"
+End
+
+Caption Objective 2
+"Objective 2:
+\nDestroy all 4 missile silos before the missiles launch"
+End
+
+Caption Objective 2 Updated
+"UPDATED OBJECTIVE:
+\nCapture Dark Horseman's Radar Outpost"
+End
+
+Caption Objective 3
+"Objective 3:
+\nCapture and protect all 4 Nuclear Bunkers"
+End
+
+
+Caption Missile 1 Disabled
+"We have control of the first missile."
+End
+
+Caption Missile 2 Disabled
+"We have control of the second missile."
+End
+
+Caption Missile 3 Disabled
+"We have control of the third missile."
+End
+
+Caption Missile 4 Disabled
+"We have control of all four missiles."
+End
+
+
+SCRIPT:Briefing1
+"Our forces have arrived. A Russian blockade is preventing our dozers from safely building a base."
+End
+
+SCRIPT:Briefing2
+"Destroy all Russian units blocking our path. Show no mercy."
+End
+
+SCRIPT:SentinelDetected
+"It looks like our other Black Lotus agent failed to destroy the Sentinel base in the Urals.
+Do not underestimate their power. We are sending Overlords to counter them."
+End
+
+SCRIPT:ICBM Located
+"The ICBM silos are located here. Destroy them before the Russians launch the missiles."
+End
+
+
+SCRIPT:Russian Subs
+"Warning: Russian Anti-Air Submarines detected in the west. They cannot by destroyed.
+Avoid at all costs."
+End
+
+SCRIPT:ICBM Launched
+"RED ALERT: THE MISSILES HAVE LAUNCHED. Change of plan. CAPTURE the RADAR OUTPOST.
+Before the missiles hit your base in China!"
+End
+
+SCRIPT:Nuclear Arsenal Unlocked
+"We have granted you access to our own nuclear arsenal. Fight fire with fire general."
+End
+
+SCRIPT:Radar Outpost Captured
+"We have captured the Radar Outpost. Wait...the control signals are coming from underground.
+We cannot stop the missiles from this structure, but we can slow them down."
+End
+
+SCRIPT:Going Underground
+"You have five more minutes before the missiles hit your base.
+Use Black Lotus's team to locate, capture and protect the Nuclear Bunkers controlling the missiles"
+End
+
+SCRIPT:Lose Radar Outpost
+"The Radar Outpost has been destroyed. Mission failed."
+End
+
+SCRIPT:Lose Capture Team
+"You have no units that can capture the Nuclear Bunkers. Mission failed."
+End
+
+SCRIPT:Lose Nuke Bunker
+"One of the nuclear bunkers have been destroyed. We cannot complete our objectives.
+Mission failed."
+End

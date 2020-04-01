@@ -1,0 +1,120 @@
+SCRIPT:SentinelTeamTimer
+"Sentinel team arrives in:"
+End
+
+Caption Intro
+"Operation Black Dragon
+\nLocation: Somewhere in Southern Russia"
+End
+
+Caption Objective 1
+"Objective 1:
+\nKill the prison guards to free Black Lotus"
+End
+
+Caption Objective 2
+"Objective 2:
+\nEliminate the Shock Troopers in our base"
+End
+
+Caption Objective 3
+"Objective 3:
+\nProtect the Command Center and Internet Center"
+End
+
+Caption Objective 4
+"Objective 4:
+\nDestroy the Industrial Plant and all Sentinel Tanks"
+End
+
+Caption Objective 5
+"Objective 5:
+\nEvacuate Colonel Burton and Black Lotus"
+End
+
+SCRIPT:Briefing1
+"Black Lotus has discovered a prototype Russian tank.
+She believes they are trying to create a counterpart to our Overlord,
+Codename: Sentinel."
+End
+
+SCRIPT:Briefing2
+"Unfortunately, she was captured when our outpost was raided by Shock Troopers.
+She has been taken to a small prison just outside the Sentinel testing area."
+End
+
+SCRIPT:Briefing3
+"Impressed by your destruction of the GLA Drugs Lab in Kenya, 
+the United States have loaned the services of Colonel Burton.
+Use him to free Black Lotus."
+End
+
+SCRIPT:Briefing4
+"Beware of enemy Conscripts, they are able to detect stealth.
+Both Burton and Lotus MUST survive the mission."
+End
+
+SCRIPT:BlackLotusFree
+"Objective complete, Black Lotus is free.
+She has lost her hacking abilites but Burton has supplied her with demo charges."
+End
+
+SCRIPT:Obj2Briefing
+"It looks like our outpost is still standing,
+Kill all Shock Troopers to bring it online."
+End
+
+SCRIPT:Obj3Briefing
+"Objective Complete. We are attempting to hack the Russian base and erase the Sentinel Tank blueprints.
+Standby..."
+End
+
+SCRIPT:Obj3Warning
+"WARNING: The Russians know we are here!
+They are sending Sentinel Tanks to destroy the outpost!
+The Command Center and Internet Center MUST survive!"
+End
+
+SCRIPT:DisruptorHint
+"Hint: Use Disruptor Teams to stop Sentinels dead in their tracks.
+You can then use Tank Hunters or Demo Charges to finish them off."
+End
+
+SCRIPT:Obj4Briefing
+"Objective Complete. Good work, the Sentinel Tank blueprints have been deleted.
+It looks like the only entrance to the base is heavily guarded by Tesla Coils.
+However, we may be able to use a convinently stolen transport to sneak Lotus and Burton in."
+End
+
+SCRIPT:GrizonHint
+"Hint: The Russians will not fire on the Grizon Transport.
+Load Lotus and Burton into the transport and they can enter the base undetected."
+End
+
+
+SCRIPT:Obj4Hint
+"Your goal is to destroy the Industrial Plant and ALL Sentinel Tanks on the map.
+Bomb the Power Plants first, that will render the Tesla Coils obsolete."
+End
+
+SCRIPT:Obj4Complete
+"Objective complete. Excellent work, the Combat Chinnok is waiting
+to extract both commandos."
+End
+
+SCRIPT:Climax1
+"Hacker: General, we have found another Sentinel research base in the Ural Mountains
+...we should dispatch another Black Lotus to take care of it."
+End
+
+SCRIPT:Climax2
+"Hacker: Wait...what is this? Sir, remember our nukes that were stolen in Vietnam? They have been taken to..."
+End
+
+SCRIPT:CriticalUnitLost
+"We have lost a commando. Mission failed."
+End
+
+SCRIPT:CriticalStructureLost
+"We have lost a critical structure. We can no longer access the Russian mainframe. Mission failed."
+End
