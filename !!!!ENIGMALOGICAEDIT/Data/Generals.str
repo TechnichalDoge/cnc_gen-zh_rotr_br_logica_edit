@@ -1,5 +1,5 @@
 Version:Format2
-"ROTR 1.87 PB 2.0, Babushka's Revenge RC1.0, ZH V%d.%d"
+"ROTR 1.87 PB 2.0, Babushka's Revenge RC1.0.1, ZH V%d.%d"
 END
 
 ACADEMY:Eva
@@ -3394,7 +3394,7 @@ CONTROLBAR:ToolTipUSABuildLasrPaladin
 END
 
 CONTROLBAR:ToolTipUSABuildMedic
-"Infantry Healing Vehicle.\n Can clean contaminated ground.\n Deploys into field hospital.\n Can be upgraded with drones.\n\n Strong vs. n/a\n Weak vs. infantry, vehicles"
+"Infantry Healing Vehicle.\n Can clean contaminated ground.\n Repairs nearby infantry and vehicles. \n Can be upgraded with drones.\n\n Strong vs. n/a\n Weak vs. infantry, vehicles"
 END
 
 CONTROLBAR:ToolTipUSABuildMicrowave
@@ -19724,6 +19724,7 @@ END
 
 Map:FatalSpaceBR
 "Fatal Space [BR][Gamemode]"
+END
 
 MAP:CityUnderSiege
 "City Under Siege [ROTR]"
@@ -33923,7 +33924,7 @@ CONTROLBAR:ConstructAmericaVehicleDroneLifter
 END
 
 CONTROLBAR:ToolTipUSABuildDroneLifter
-"Call in a Drone Airlifter.\n Can transport up to 10 infantry units.\n Heals all passengers onboard. \n Can perform a combat drop with Rangers. \n\n Strong vs. n/a \n Weak vs. fighters, anti-air units"
+"Call in a Drone Airlifter.\n Can transport up to 8 infantry units.\n Heals all passengers onboard. \n Can perform a combat drop with Rangers. \n\n Strong vs. n/a \n Weak vs. fighters, anti-air units"
 END
 
 OBJECT:Starlifter

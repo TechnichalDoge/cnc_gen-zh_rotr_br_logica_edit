@@ -1,0 +1,72 @@
+// DONOT REMOVE YOU IDIOT //
+Map Creator: Adriane
+"Creator of the map:
+\n[Adriane/Deathscythe]"
+End
+
+// SCRIPT //
+
+SCRIPT:ROUND
+"Remaining Time:"
+End
+
+SCRIPT:DRAW
+"Round Draw"
+End
+
+SCRIPT:Score_Team01
+"Team A:"
+End
+
+SCRIPT:Score_Team02
+"Team B:"
+End
+
+SCRIPT:Score_Team03
+"Team C:"
+End
+
+SCRIPT:Score_Team04
+"Team D:"
+End
+
+SCRIPT:Score_Team05
+"Team E:"
+End
+
+SCRIPT:Score_Team06
+"Team F:"
+End
+
+SCRIPT:Score_Team07
+"Team G:"
+End
+
+SCRIPT:Score_Team08
+"Team H:"
+End
+
+// DEBUG //
+
+SCRIPT:Total_Players
+"Total Players:"
+End
+
+SCRIPT:AI_Players
+"AI Players:"
+End
+
+SCRIPT:MP_Teams
+"Total Teams:"
+End
+
+Error:LowTeams
+"ERROR:\n
+At least 2 teams are requierd to perform SCORING"
+End
+
+Error:TransferLinker
+"ERROR:\n
+TeamLinker has not been Transfered to any PLAYER\n
+Debug Section 'MP_TeamLink'"
+End
