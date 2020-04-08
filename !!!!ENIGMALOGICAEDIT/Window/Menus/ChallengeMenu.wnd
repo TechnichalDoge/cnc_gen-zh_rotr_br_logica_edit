@@ -383,7 +383,7 @@ WINDOW
                          BOTTOMRIGHT: 179 225,
                          CREATIONRESOLUTION: 800 600;
             NAME = "ChallengeMenu.wnd:GeneralPosition0";
-            STATUS = ENABLED+IMAGE+RIGHT_CLICK+CHECK_LIKE;
+            STATUS = DISABLED+HIDDEN+RIGHT_CLICK+CHECK_LIKE;
             STYLE = PUSHBUTTON+MOUSETRACK;
             SYSTEMCALLBACK = "[None]";
             INPUTCALLBACK = "[None]";
@@ -966,7 +966,7 @@ WINDOW
                          BOTTOMRIGHT: 527 249,
                          CREATIONRESOLUTION: 800 600;
             NAME = "ChallengeMenu.wnd:GeneralPosition1";
-            STATUS = ENABLED+IMAGE+RIGHT_CLICK+CHECK_LIKE;
+            STATUS = DISABLED+HIDDEN+RIGHT_CLICK+CHECK_LIKE;
             STYLE = PUSHBUTTON+MOUSETRACK;
             SYSTEMCALLBACK = "[None]";
             INPUTCALLBACK = "[None]";
@@ -1009,8 +1009,8 @@ WINDOW
           CHILD
           WINDOW
             WINDOWTYPE = PUSHBUTTON;
-            SCREENRECT = UPPERLEFT: 624 198,
-                         BOTTOMRIGHT: 651 225,
+            SCREENRECT = UPPERLEFT: 482 186,
+                         BOTTOMRIGHT: 508 212,
                          CREATIONRESOLUTION: 800 600;
             NAME = "ChallengeMenu.wnd:GeneralPosition2";
             STATUS = ENABLED+IMAGE+RIGHT_CLICK+CHECK_LIKE;

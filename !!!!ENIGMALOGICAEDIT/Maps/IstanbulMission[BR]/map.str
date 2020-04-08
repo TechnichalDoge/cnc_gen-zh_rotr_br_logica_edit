@@ -1,0 +1,36 @@
+Welcome
+"COM: Welcome to Istanbul, GENERAL!
+\nPremier tourist location, turned terrorist hotspot."
+End
+
+Caption1
+"High priority target - Warlord Abdul.
+\nHis exit point is on the East side."
+END
+
+Caption2
+"Your mission is to Eliminate Warlord Abdul."
+END
+
+Stingers
+"COM: GENERAL! Destroy the Stinger Sites to cross the River."
+END
+
+TooManyUnits
+"COM: GENERAL! Our increased presence has alerted the GLA!
+\nTechnicals may be heading our way!"
+END
+
+Limo
+"COM: This is your chance General. DESTROY the LIMO.
+\nthe Warlord cannot be allowed to leave ISTANBUL."
+END
+
+LimoUrgent
+"COM: General, the Warlord is about to leave the city.
+\nStop him at all costs!"
+END
+
+SCRIPT:LimoTimer
+"Warlord's Limo arrives in:"
+END

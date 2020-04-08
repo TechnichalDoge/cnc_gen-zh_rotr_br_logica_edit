@@ -22,7 +22,7 @@ WINDOW
   TEXTCOLOR = ENABLED:  255 255 255 255, ENABLEDBORDER:  255 255 255 255,
               DISABLED: 255 255 255 255, DISABLEDBORDER: 255 255 255 255,
               HILITE:   255 255 255 255, HILITEBORDER:   255 255 255 255;
-  ENABLEDDRAWDATA = IMAGE: MainMenuRuler, COLOR: 0 0 1 255, BORDERCOLOR: 254 254 254 255,
+  ENABLEDDRAWDATA = IMAGE: MainMenuRuler, COLOR: 1 1 1 255, BORDERCOLOR: 254 254 254 255,
                     IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
                     IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
                     IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
@@ -40,7 +40,7 @@ WINDOW
                      IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
                      IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
                      IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255;
-  HILITEDRAWDATA = IMAGE: NoImage, COLOR: 128 128 255 255, BORDERCOLOR: 254 254 254 255,
+  HILITEDRAWDATA = IMAGE: NoImage, COLOR: 47 47 47 255, BORDERCOLOR: 254 254 254 255,
                    IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
                    IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
                    IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
@@ -77,7 +77,7 @@ WINDOW
                       IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
                       IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
                       IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0;
-    DISABLEDDRAWDATA = IMAGE: NoImage, COLOR: 0 0 64 255, BORDERCOLOR: 0 0 0 255,
+    DISABLEDDRAWDATA = IMAGE: NoImage, COLOR: 47 47 47 255, BORDERCOLOR: 0 0 0 255,
                        IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
                        IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
                        IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
@@ -86,7 +86,7 @@ WINDOW
                        IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
                        IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
                        IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0;
-    HILITEDRAWDATA = IMAGE: NoImage, COLOR: 0 0 255 255, BORDERCOLOR: 0 0 0 255,
+    HILITEDRAWDATA = IMAGE: NoImage, COLOR: 47 47 47 255, BORDERCOLOR: 0 0 0 255,
                      IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
                      IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
                      IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
@@ -114,7 +114,7 @@ WINDOW
       TEXT = "GUI:PlayerName";
       TEXTCOLOR = ENABLED:  255 255 255 255, ENABLEDBORDER:  0 0 0 255,
                   DISABLED: 192 192 192 255, DISABLEDBORDER: 64 64 64 255,
-                  HILITE:   128 128 255 255, HILITEBORDER:   0 0 128 255;
+                  HILITE:   47 47 47 255, HILITEBORDER:   47 47 47 255;
       ENABLEDDRAWDATA = IMAGE: BlackSquare, COLOR: 3 0 0 0, BORDERCOLOR: 1 1 1 0,
                         IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
                         IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
@@ -162,10 +162,10 @@ WINDOW
       TOOLTIPDELAY = -1;
       TEXT = "GUI:GotoMainMenu";
       TEXTCOLOR = ENABLED:  255 255 255 255, ENABLEDBORDER:  0 0 0 255,
-                  DISABLED: 62 64 92 255, DISABLEDBORDER: 31 32 47 255,
+                  DISABLED: 47 47 47 255, DISABLEDBORDER: 47 47 47 255,
                   HILITE:   186 255 12 255, HILITEBORDER:   0 2 0 255;
       ENABLEDDRAWDATA = IMAGE: Buttons-Left, COLOR: 255 0 0 255, BORDERCOLOR: 255 128 128 255,
-                        IMAGE: NoImage, COLOR: 200 0 0 255, BORDERCOLOR: 254 254 254 255,
+                        IMAGE: NoImage, COLOR: 47 55 47 255, BORDERCOLOR: 254 254 254 255,
                         IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
                         IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
                         IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
@@ -183,7 +183,7 @@ WINDOW
                          IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
                          IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0;
       HILITEDRAWDATA = IMAGE: Buttons-HiLite-Left, COLOR: 209 253 4 255, BORDERCOLOR: 59 60 52 255,
-                       IMAGE: Buttons-Pushed-Left, COLOR: 200 0 0 255, BORDERCOLOR: 254 254 254 255,
+                       IMAGE: Buttons-Pushed-Left, COLOR: 47 55 47 255, BORDERCOLOR: 254 254 254 255,
                        IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
                        IMAGE: Buttons-Pushed-Middle, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
                        IMAGE: Buttons-Pushed-Right, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
@@ -210,10 +210,10 @@ WINDOW
       TOOLTIPDELAY = -1;
       TEXT = "GUI:Host";
       TEXTCOLOR = ENABLED:  255 255 255 255, ENABLEDBORDER:  0 0 0 255,
-                  DISABLED: 62 64 92 255, DISABLEDBORDER: 31 32 47 255,
+                  DISABLED: 47 47 47 255, DISABLEDBORDER: 47 47 47 255,
                   HILITE:   186 255 12 255, HILITEBORDER:   0 2 0 255;
       ENABLEDDRAWDATA = IMAGE: Buttons-Left, COLOR: 255 0 0 255, BORDERCOLOR: 255 128 128 255,
-                        IMAGE: NoImage, COLOR: 200 0 0 255, BORDERCOLOR: 254 254 254 255,
+                        IMAGE: NoImage, COLOR: 47 55 47 255, BORDERCOLOR: 254 254 254 255,
                         IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
                         IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
                         IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
@@ -231,7 +231,7 @@ WINDOW
                          IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
                          IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0;
       HILITEDRAWDATA = IMAGE: Buttons-HiLite-Left, COLOR: 209 253 4 255, BORDERCOLOR: 59 60 52 255,
-                       IMAGE: Buttons-Pushed-Left, COLOR: 200 0 0 255, BORDERCOLOR: 254 254 254 255,
+                       IMAGE: Buttons-Pushed-Left, COLOR: 47 55 47 255, BORDERCOLOR: 254 254 254 255,
                        IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
                        IMAGE: Buttons-Pushed-Middle, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
                        IMAGE: Buttons-Pushed-Right, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
@@ -258,10 +258,10 @@ WINDOW
       TOOLTIPDELAY = -1;
       TEXT = "GUI:Join";
       TEXTCOLOR = ENABLED:  255 255 255 255, ENABLEDBORDER:  0 0 0 255,
-                  DISABLED: 62 64 92 255, DISABLEDBORDER: 31 32 47 255,
+                  DISABLED: 47 47 47 255, DISABLEDBORDER: 47 47 47 255,
                   HILITE:   186 255 12 255, HILITEBORDER:   0 2 0 255;
       ENABLEDDRAWDATA = IMAGE: Buttons-Left, COLOR: 255 0 0 255, BORDERCOLOR: 255 128 128 255,
-                        IMAGE: NoImage, COLOR: 200 0 0 255, BORDERCOLOR: 254 254 254 255,
+                        IMAGE: NoImage, COLOR: 47 55 47 255, BORDERCOLOR: 254 254 254 255,
                         IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
                         IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
                         IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
@@ -279,7 +279,7 @@ WINDOW
                          IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
                          IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0;
       HILITEDRAWDATA = IMAGE: Buttons-HiLite-Left, COLOR: 209 253 4 255, BORDERCOLOR: 59 60 52 255,
-                       IMAGE: Buttons-Pushed-Left, COLOR: 200 0 0 255, BORDERCOLOR: 254 254 254 255,
+                       IMAGE: Buttons-Pushed-Left, COLOR: 47 55 47 255, BORDERCOLOR: 254 254 254 255,
                        IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
                        IMAGE: Buttons-Pushed-Middle, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
                        IMAGE: Buttons-Pushed-Right, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
@@ -306,10 +306,10 @@ WINDOW
       TOOLTIPDELAY = -1;
       TEXT = "GUI:DirectConnect";
       TEXTCOLOR = ENABLED:  255 255 255 255, ENABLEDBORDER:  0 0 0 255,
-                  DISABLED: 62 64 92 255, DISABLEDBORDER: 31 32 47 255,
+                  DISABLED: 47 47 47 255, DISABLEDBORDER: 47 47 47 255,
                   HILITE:   186 255 12 255, HILITEBORDER:   0 2 0 255;
       ENABLEDDRAWDATA = IMAGE: Buttons-Left, COLOR: 255 0 0 255, BORDERCOLOR: 255 128 128 255,
-                        IMAGE: NoImage, COLOR: 200 0 0 255, BORDERCOLOR: 254 254 254 255,
+                        IMAGE: NoImage, COLOR: 47 55 47 255, BORDERCOLOR: 254 254 254 255,
                         IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
                         IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
                         IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
@@ -327,7 +327,7 @@ WINDOW
                          IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
                          IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0;
       HILITEDRAWDATA = IMAGE: Buttons-HiLite-Left, COLOR: 209 253 4 255, BORDERCOLOR: 59 60 52 255,
-                       IMAGE: Buttons-Pushed-Left, COLOR: 200 0 0 255, BORDERCOLOR: 254 254 254 255,
+                       IMAGE: Buttons-Pushed-Left, COLOR: 47 55 47 255, BORDERCOLOR: 254 254 254 255,
                        IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
                        IMAGE: Buttons-Pushed-Middle, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
                        IMAGE: Buttons-Pushed-Right, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
@@ -355,7 +355,7 @@ WINDOW
       TEXT = "Entry";
       TEXTCOLOR = ENABLED:  254 254 254 255, ENABLEDBORDER:  0 0 0 255,
                   DISABLED: 192 192 192 255, DISABLEDBORDER: 64 64 64 255,
-                  HILITE:   186 255 12 255, HILITEBORDER:   0 0 128 255;
+                  HILITE:   186 255 12 255, HILITEBORDER:   47 47 47 255;
       ENABLEDDRAWDATA = IMAGE: TextEntryEnabledLeftEnd, COLOR: 255 0 0 255, BORDERCOLOR: 255 128 128 255,
                         IMAGE: TextEntryEnabledRightEnd, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
                         IMAGE: TextEntryEnabledRepeatingCenter, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
@@ -392,8 +392,8 @@ WINDOW
     CHILD
     WINDOW
       WINDOWTYPE = SCROLLLISTBOX;
-      SCREENRECT = UPPERLEFT: 53 131,
-                   BOTTOMRIGHT: 274 311,
+      SCREENRECT = UPPERLEFT: 521 131,
+                   BOTTOMRIGHT: 751 309,
                    CREATIONRESOLUTION: 800 600;
       NAME = "LanLobbyMenu.wnd:ListboxPlayers";
       STATUS = ENABLED+NOFOCUS;
@@ -407,8 +407,8 @@ WINDOW
       TOOLTIPDELAY = -1;
       TEXTCOLOR = ENABLED:  254 254 254 255, ENABLEDBORDER:  0 0 0 255,
                   DISABLED: 192 192 192 255, DISABLEDBORDER: 64 64 64 255,
-                  HILITE:   128 128 255 255, HILITEBORDER:   0 0 128 255;
-      ENABLEDDRAWDATA = IMAGE: BlackSquare, COLOR: 0 0 0 126, BORDERCOLOR: 200 0 0 255,
+                  HILITE:   47 47 47 255, HILITEBORDER:   47 47 47 255;
+      ENABLEDDRAWDATA = IMAGE: BlackSquare, COLOR: 0 0 0 126, BORDERCOLOR: 49 55 47 255,
                         IMAGE: ListBoxHiliteItemLeftEnd, COLOR: 255 255 0 255, BORDERCOLOR: 254 254 254 255,
                         IMAGE: ListBoxHiliteItemRightEnd, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
                         IMAGE: ListBoxHiliteItemRepeatingCenter, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
@@ -417,7 +417,7 @@ WINDOW
                         IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
                         IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
                         IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0;
-      DISABLEDDRAWDATA = IMAGE: BlackSquare, COLOR: 0 0 0 126, BORDERCOLOR: 200 0 0 255,
+      DISABLEDDRAWDATA = IMAGE: BlackSquare, COLOR: 0 0 0 126, BORDERCOLOR: 49 55 47 255,
                          IMAGE: NoImage, COLOR: 192 192 192 255, BORDERCOLOR: 254 254 254 255,
                          IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
                          IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
@@ -426,7 +426,7 @@ WINDOW
                          IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
                          IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
                          IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0;
-      HILITEDRAWDATA = IMAGE: BlackSquare, COLOR: 0 0 0 126, BORDERCOLOR: 200 0 0 255,
+      HILITEDRAWDATA = IMAGE: BlackSquare, COLOR: 0 0 0 126, BORDERCOLOR: 49 55 47 255,
                        IMAGE: ListBoxHiliteSelectedItemLeftEnd, COLOR: 254 254 254 255, BORDERCOLOR: 0 128 0 255,
                        IMAGE: ListBoxHiliteSelectedItemRightEnd, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
                        IMAGE: ListBoxHiliteSelectedItemRepeatingCenter, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
@@ -497,7 +497,7 @@ WINDOW
                                         IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
                                         IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
                                         IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0;
-      LISTBOXENABLEDSLIDERDRAWDATA = IMAGE: NoImage, COLOR: 255 190 0 0, BORDERCOLOR: 200 0 0 255,
+      LISTBOXENABLEDSLIDERDRAWDATA = IMAGE: NoImage, COLOR: 255 190 0 0, BORDERCOLOR: 47 55 47 255,
                                      IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
                                      IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
                                      IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
@@ -515,7 +515,7 @@ WINDOW
                                       IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
                                       IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
                                       IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0;
-      LISTBOXHILITESLIDERDRAWDATA = IMAGE: NoImage, COLOR: 0 255 0 0, BORDERCOLOR: 200 0 0 255,
+      LISTBOXHILITESLIDERDRAWDATA = IMAGE: NoImage, COLOR: 0 255 0 0, BORDERCOLOR: 49 55 47 255,
                                     IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
                                     IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
                                     IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
@@ -568,10 +568,10 @@ WINDOW
       FONT = NAME: "Arial", SIZE: 14, BOLD: 0;
       HEADERTEMPLATE = "MinorTitle";
       TOOLTIPDELAY = -1;
-      TEXT = "GUI:Players";
+      TEXT = "GUI:Games";
       TEXTCOLOR = ENABLED:  255 255 255 255, ENABLEDBORDER:  0 0 0 255,
                   DISABLED: 192 192 192 255, DISABLEDBORDER: 64 64 64 255,
-                  HILITE:   128 128 255 255, HILITEBORDER:   0 0 128 255;
+                  HILITE:   47 47 47 255, HILITEBORDER:   47 47 47 255;
       ENABLEDDRAWDATA = IMAGE: BlackSquare, COLOR: 1 0 0 0, BORDERCOLOR: 2 2 2 0,
                         IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
                         IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
@@ -617,10 +617,10 @@ WINDOW
       FONT = NAME: "Arial", SIZE: 14, BOLD: 0;
       HEADERTEMPLATE = "MinorTitle";
       TOOLTIPDELAY = -1;
-      TEXT = "GUI:Games";
+      TEXT = "GUI:GameInfo";
       TEXTCOLOR = ENABLED:  255 255 255 255, ENABLEDBORDER:  0 0 0 255,
                   DISABLED: 192 192 192 255, DISABLEDBORDER: 64 64 64 255,
-                  HILITE:   128 128 255 255, HILITEBORDER:   0 0 128 255;
+                  HILITE:   47 47 47 255, HILITEBORDER:   47 47 47 255;
       ENABLEDDRAWDATA = IMAGE: BlackSquare, COLOR: 1 0 0 0, BORDERCOLOR: 1 1 1 0,
                         IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
                         IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
@@ -653,8 +653,8 @@ WINDOW
     CHILD
     WINDOW
       WINDOWTYPE = SCROLLLISTBOX;
-      SCREENRECT = UPPERLEFT: 277 131,
-                   BOTTOMRIGHT: 517 311,
+      SCREENRECT = UPPERLEFT: 53 131,
+                   BOTTOMRIGHT: 274 493,
                    CREATIONRESOLUTION: 800 600;
       NAME = "LanLobbyMenu.wnd:ListboxGames";
       STATUS = ENABLED+NOFOCUS;
@@ -668,8 +668,8 @@ WINDOW
       TOOLTIPDELAY = -1;
       TEXTCOLOR = ENABLED:  254 254 254 255, ENABLEDBORDER:  0 0 0 255,
                   DISABLED: 192 192 192 255, DISABLEDBORDER: 64 64 64 255,
-                  HILITE:   128 128 255 255, HILITEBORDER:   0 0 128 255;
-      ENABLEDDRAWDATA = IMAGE: BlackSquare, COLOR: 0 0 0 126, BORDERCOLOR: 200 0 0 255,
+                  HILITE:   47 47 47 255, HILITEBORDER:   47 47 47 255;
+      ENABLEDDRAWDATA = IMAGE: BlackSquare, COLOR: 0 0 0 126, BORDERCOLOR: 49 55 47 255,
                         IMAGE: ListBoxHiliteItemLeftEnd, COLOR: 255 255 0 255, BORDERCOLOR: 254 254 254 255,
                         IMAGE: ListBoxHiliteItemRightEnd, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
                         IMAGE: ListBoxHiliteItemRepeatingCenter, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
@@ -678,7 +678,7 @@ WINDOW
                         IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
                         IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
                         IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0;
-      DISABLEDDRAWDATA = IMAGE: BlackSquare, COLOR: 0 0 0 126, BORDERCOLOR: 200 0 0 255,
+      DISABLEDDRAWDATA = IMAGE: BlackSquare, COLOR: 0 0 0 126, BORDERCOLOR: 49 55 47 255,
                          IMAGE: NoImage, COLOR: 192 192 192 255, BORDERCOLOR: 254 254 254 255,
                          IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
                          IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
@@ -687,7 +687,7 @@ WINDOW
                          IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
                          IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
                          IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0;
-      HILITEDRAWDATA = IMAGE: BlackSquare, COLOR: 0 0 0 126, BORDERCOLOR: 200 0 0 255,
+      HILITEDRAWDATA = IMAGE: BlackSquare, COLOR: 0 0 0 126, BORDERCOLOR: 49 55 47 255,
                        IMAGE: ListBoxHiliteSelectedItemLeftEnd, COLOR: 254 254 254 255, BORDERCOLOR: 0 128 0 255,
                        IMAGE: ListBoxHiliteSelectedItemRightEnd, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
                        IMAGE: ListBoxHiliteSelectedItemRepeatingCenter, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
@@ -758,7 +758,7 @@ WINDOW
                                         IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
                                         IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
                                         IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0;
-      LISTBOXENABLEDSLIDERDRAWDATA = IMAGE: NoImage, COLOR: 255 190 0 0, BORDERCOLOR: 200 0 0 255,
+      LISTBOXENABLEDSLIDERDRAWDATA = IMAGE: NoImage, COLOR: 255 190 0 0, BORDERCOLOR: 47 55 47 255,
                                      IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
                                      IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
                                      IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
@@ -776,7 +776,7 @@ WINDOW
                                       IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
                                       IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
                                       IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0;
-      LISTBOXHILITESLIDERDRAWDATA = IMAGE: NoImage, COLOR: 0 255 0 0, BORDERCOLOR: 200 0 0 255,
+      LISTBOXHILITESLIDERDRAWDATA = IMAGE: NoImage, COLOR: 0 255 0 0, BORDERCOLOR: 49 55 47 255,
                                     IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
                                     IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
                                     IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
@@ -816,8 +816,8 @@ WINDOW
     CHILD
     WINDOW
       WINDOWTYPE = STATICTEXT;
-      SCREENRECT = UPPERLEFT: 521 130,
-                   BOTTOMRIGHT: 753 310,
+      SCREENRECT = UPPERLEFT: 277 131,
+                   BOTTOMRIGHT: 517 309,
                    CREATIONRESOLUTION: 800 600;
       NAME = "LanLobbyMenu.wnd:StaticTextGameInfo";
       STATUS = ENABLED+NOINPUT+NOFOCUS;
@@ -831,8 +831,8 @@ WINDOW
       TOOLTIPDELAY = -1;
       TEXTCOLOR = ENABLED:  254 254 254 255, ENABLEDBORDER:  0 0 0 255,
                   DISABLED: 192 192 192 255, DISABLEDBORDER: 64 64 64 255,
-                  HILITE:   128 128 255 255, HILITEBORDER:   0 0 128 255;
-      ENABLEDDRAWDATA = IMAGE: BlackSquare, COLOR: 1 0 0 126, BORDERCOLOR: 200 0 0 255,
+                  HILITE:   47 47 47 255, HILITEBORDER:   47 47 47 255;
+      ENABLEDDRAWDATA = IMAGE: BlackSquare, COLOR: 1 0 0 126, BORDERCOLOR: 49 55 47 255,
                         IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
                         IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
                         IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
@@ -877,10 +877,10 @@ WINDOW
       FONT = NAME: "Arial", SIZE: 14, BOLD: 0;
       HEADERTEMPLATE = "MinorTitle";
       TOOLTIPDELAY = -1;
-      TEXT = "GUI:GameInfo";
+      TEXT = "GUI:Players";
       TEXTCOLOR = ENABLED:  255 255 255 255, ENABLEDBORDER:  0 0 0 255,
                   DISABLED: 192 192 192 255, DISABLEDBORDER: 64 64 64 255,
-                  HILITE:   128 128 255 255, HILITEBORDER:   0 0 128 255;
+                  HILITE:   47 47 47 255, HILITEBORDER:   47 47 47 255;
       ENABLEDDRAWDATA = IMAGE: BlackSquare, COLOR: 1 0 0 0, BORDERCOLOR: 1 1 1 0,
                         IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
                         IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
@@ -913,7 +913,7 @@ WINDOW
     CHILD
     WINDOW
       WINDOWTYPE = SCROLLLISTBOX;
-      SCREENRECT = UPPERLEFT: 52 315,
+      SCREENRECT = UPPERLEFT: 277 315,
                    BOTTOMRIGHT: 751 462,
                    CREATIONRESOLUTION: 800 600;
       NAME = "LanLobbyMenu.wnd:ListboxChatWindowLanLobby";
@@ -928,8 +928,8 @@ WINDOW
       TOOLTIPDELAY = -1;
       TEXTCOLOR = ENABLED:  254 254 254 255, ENABLEDBORDER:  0 0 0 255,
                   DISABLED: 192 192 192 255, DISABLEDBORDER: 64 64 64 255,
-                  HILITE:   128 128 255 255, HILITEBORDER:   0 0 128 255;
-      ENABLEDDRAWDATA = IMAGE: BlackSquare, COLOR: 0 0 0 126, BORDERCOLOR: 200 0 0 255,
+                  HILITE:   47 47 47 255, HILITEBORDER:   47 47 47 255;
+      ENABLEDDRAWDATA = IMAGE: BlackSquare, COLOR: 0 0 0 126, BORDERCOLOR: 49 55 47 255,
                         IMAGE: ListBoxHiliteItemLeftEnd, COLOR: 255 255 0 255, BORDERCOLOR: 254 254 254 255,
                         IMAGE: ListBoxHiliteItemRightEnd, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
                         IMAGE: ListBoxHiliteItemRepeatingCenter, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
@@ -938,7 +938,7 @@ WINDOW
                         IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
                         IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
                         IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0;
-      DISABLEDDRAWDATA = IMAGE: BlackSquare, COLOR: 0 0 0 126, BORDERCOLOR: 200 0 0 255,
+      DISABLEDDRAWDATA = IMAGE: BlackSquare, COLOR: 0 0 0 126, BORDERCOLOR: 49 55 47 255,
                          IMAGE: NoImage, COLOR: 192 192 192 255, BORDERCOLOR: 254 254 254 255,
                          IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
                          IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
@@ -947,7 +947,7 @@ WINDOW
                          IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
                          IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
                          IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0;
-      HILITEDRAWDATA = IMAGE: BlackSquare, COLOR: 0 0 0 126, BORDERCOLOR: 200 0 0 255,
+      HILITEDRAWDATA = IMAGE: BlackSquare, COLOR: 0 0 0 126, BORDERCOLOR: 49 55 47 255,
                        IMAGE: ListBoxHiliteSelectedItemLeftEnd, COLOR: 254 254 254 255, BORDERCOLOR: 0 128 0 255,
                        IMAGE: ListBoxHiliteSelectedItemRightEnd, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
                        IMAGE: ListBoxHiliteSelectedItemRepeatingCenter, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
@@ -1018,7 +1018,7 @@ WINDOW
                                         IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
                                         IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
                                         IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0;
-      LISTBOXENABLEDSLIDERDRAWDATA = IMAGE: NoImage, COLOR: 255 190 0 0, BORDERCOLOR: 200 0 0 255,
+      LISTBOXENABLEDSLIDERDRAWDATA = IMAGE: NoImage, COLOR: 255 190 0 0, BORDERCOLOR: 47 55 47 255,
                                      IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
                                      IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
                                      IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
@@ -1036,7 +1036,7 @@ WINDOW
                                       IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
                                       IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
                                       IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0;
-      LISTBOXHILITESLIDERDRAWDATA = IMAGE: NoImage, COLOR: 0 255 0 0, BORDERCOLOR: 200 0 0 255,
+      LISTBOXHILITESLIDERDRAWDATA = IMAGE: NoImage, COLOR: 0 255 0 0, BORDERCOLOR: 49 55 47 255,
                                     IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
                                     IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
                                     IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
@@ -1076,7 +1076,7 @@ WINDOW
     CHILD
     WINDOW
       WINDOWTYPE = ENTRYFIELD;
-      SCREENRECT = UPPERLEFT: 53 469,
+      SCREENRECT = UPPERLEFT: 277 469,
                    BOTTOMRIGHT: 690 493,
                    CREATIONRESOLUTION: 800 600;
       NAME = "LanLobbyMenu.wnd:TextEntryChat";
@@ -1092,8 +1092,8 @@ WINDOW
       TEXT = "Entry";
       TEXTCOLOR = ENABLED:  254 254 254 255, ENABLEDBORDER:  0 0 0 255,
                   DISABLED: 192 192 192 255, DISABLEDBORDER: 64 64 64 255,
-                  HILITE:   186 255 12 255, HILITEBORDER:   0 0 128 255;
-      ENABLEDDRAWDATA = IMAGE: TextEntryEnabledLeftEnd, COLOR: 0 0 38 128, BORDERCOLOR: 2 2 2 255,
+                  HILITE:   186 255 12 255, HILITEBORDER:   47 47 47 255;
+      ENABLEDDRAWDATA = IMAGE: TextEntryEnabledLeftEnd, COLOR: 47 47 47 128, BORDERCOLOR: 2 2 2 255,
                         IMAGE: TextEntryEnabledRightEnd, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
                         IMAGE: TextEntryEnabledRepeatingCenter, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
                         IMAGE: TextEntryEnabledSmallRepeatingCenter, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
@@ -1111,7 +1111,7 @@ WINDOW
                          IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
                          IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
                          IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255;
-      HILITEDRAWDATA = IMAGE: TextEntryHiliteLeftEnd, COLOR: 3 0 91 135, BORDERCOLOR: 3 0 96 255,
+      HILITEDRAWDATA = IMAGE: TextEntryHiliteLeftEnd, COLOR: 47 47 47 135, BORDERCOLOR: 47 47 47 255,
                        IMAGE: TextEntryHiliteRightEnd, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
                        IMAGE: TextEntryHiliteRepeatingCenter, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
                        IMAGE: TextEntryHiliteSmallRepeatingCenter, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
@@ -1120,7 +1120,7 @@ WINDOW
                        IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
                        IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
                        IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255;
-      TEXTENTRYDATA = MAXLEN: 128,
+      TEXTENTRYDATA = MAXLEN: 60,
                       SECRETTEXT: 0,
                       NUMERICALONLY: 0,
                       ALPHANUMERICALONLY: 0,
@@ -1145,10 +1145,10 @@ WINDOW
       TOOLTIPDELAY = -1;
       TEXT = "GUI:CLEAR";
       TEXTCOLOR = ENABLED:  255 255 255 255, ENABLEDBORDER:  0 0 0 255,
-                  DISABLED: 62 64 92 255, DISABLEDBORDER: 31 32 47 255,
+                  DISABLED: 47 47 47 255, DISABLEDBORDER: 47 47 47 255,
                   HILITE:   186 255 12 255, HILITEBORDER:   0 2 0 255;
       ENABLEDDRAWDATA = IMAGE: Buttons-Left, COLOR: 255 0 0 255, BORDERCOLOR: 255 128 128 255,
-                        IMAGE: NoImage, COLOR: 200 0 0 255, BORDERCOLOR: 254 254 254 255,
+                        IMAGE: NoImage, COLOR: 47 55 47 255, BORDERCOLOR: 254 254 254 255,
                         IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
                         IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
                         IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
@@ -1166,7 +1166,7 @@ WINDOW
                          IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
                          IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0;
       HILITEDRAWDATA = IMAGE: Buttons-HiLite-Left, COLOR: 209 253 4 255, BORDERCOLOR: 59 60 52 255,
-                       IMAGE: Buttons-Pushed-Left, COLOR: 200 0 0 255, BORDERCOLOR: 254 254 254 255,
+                       IMAGE: Buttons-Pushed-Left, COLOR: 47 55 47 255, BORDERCOLOR: 254 254 254 255,
                        IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
                        IMAGE: Buttons-Pushed-Middle, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
                        IMAGE: Buttons-Pushed-Right, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
@@ -1178,8 +1178,8 @@ WINDOW
     CHILD
     WINDOW
       WINDOWTYPE = PUSHBUTTON;
-      SCREENRECT = UPPERLEFT: 714 467,
-                   BOTTOMRIGHT: 750 491,
+      SCREENRECT = UPPERLEFT: 710 469,
+                   BOTTOMRIGHT: 750 493,
                    CREATIONRESOLUTION: 800 600;
       NAME = "LanLobbyMenu.wnd:ButtonEmote";
       STATUS = ENABLED+IMAGE;
@@ -1193,7 +1193,7 @@ WINDOW
       TOOLTIPDELAY = -1;
       TEXTCOLOR = ENABLED:  254 254 254 255, ENABLEDBORDER:  0 0 0 255,
                   DISABLED: 192 192 192 255, DISABLEDBORDER: 64 64 64 255,
-                  HILITE:   128 128 255 255, HILITEBORDER:   0 0 128 255;
+                  HILITE:   47 47 47 255, HILITEBORDER:   47 47 47 255;
       ENABLEDDRAWDATA = IMAGE: ReturnButton, COLOR: 255 0 0 255, BORDERCOLOR: 255 128 128 255,
                         IMAGE: ReturnButtonHilitePushed, COLOR: 255 255 0 255, BORDERCOLOR: 254 254 254 255,
                         IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
@@ -1240,8 +1240,8 @@ WINDOW
       TOOLTIPDELAY = -1;
       TEXT = "GUI:LANLobby";
       TEXTCOLOR = ENABLED:  255 255 255 255, ENABLEDBORDER:  0 0 0 255,
-                  DISABLED: 0 0 192 255, DISABLEDBORDER: 0 0 64 255,
-                  HILITE:   0 0 0 255, HILITEBORDER:   0 0 4 255;
+                  DISABLED: 47 47 47 255, DISABLEDBORDER: 47 47 47 255,
+                  HILITE:   0 0 0 255, HILITEBORDER:   4 4 4 255;
       ENABLEDDRAWDATA = IMAGE: NoImage, COLOR: 0 0 0 0, BORDERCOLOR: 0 0 0 0,
                         IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
                         IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
@@ -1251,7 +1251,7 @@ WINDOW
                         IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
                         IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
                         IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0;
-      DISABLEDDRAWDATA = IMAGE: NoImage, COLOR: 0 0 64 255, BORDERCOLOR: 0 0 0 255,
+      DISABLEDDRAWDATA = IMAGE: NoImage, COLOR: 47 47 47 255, BORDERCOLOR: 0 0 0 255,
                          IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
                          IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
                          IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
@@ -1290,7 +1290,7 @@ WINDOW
       TEXTCOLOR = ENABLED:  255 255 255 0, ENABLEDBORDER:  255 255 255 0,
                   DISABLED: 255 255 255 0, DISABLEDBORDER: 255 255 255 0,
                   HILITE:   255 255 255 0, HILITEBORDER:   255 255 255 0;
-      ENABLEDDRAWDATA = IMAGE: NoImage, COLOR: 0 0 0 0, BORDERCOLOR: 200 0 0 255,
+      ENABLEDDRAWDATA = IMAGE: NoImage, COLOR: 0 0 0 0, BORDERCOLOR: 47 55 47 255,
                         IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
                         IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
                         IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
@@ -1299,7 +1299,7 @@ WINDOW
                         IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
                         IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
                         IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0;
-      DISABLEDDRAWDATA = IMAGE: NoImage, COLOR: 0 0 64 255, BORDERCOLOR: 0 0 0 255,
+      DISABLEDDRAWDATA = IMAGE: NoImage, COLOR: 47 47 47 255, BORDERCOLOR: 0 0 0 255,
                          IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
                          IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
                          IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
@@ -1308,7 +1308,7 @@ WINDOW
                          IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
                          IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
                          IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0;
-      HILITEDRAWDATA = IMAGE: NoImage, COLOR: 0 0 255 255, BORDERCOLOR: 0 0 0 255,
+      HILITEDRAWDATA = IMAGE: NoImage, COLOR: 47 47 47 255, BORDERCOLOR: 0 0 0 255,
                        IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
                        IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
                        IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,

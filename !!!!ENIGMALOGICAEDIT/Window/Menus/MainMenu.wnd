@@ -243,7 +243,7 @@ WINDOW
                      BOTTOMRIGHT: 302 362,
                      CREATIONRESOLUTION: 800 600;
         NAME = "MainMenu.wnd:ButtonHard";
-        STATUS = DISABLED+IMAGE;
+        STATUS = ENABLED+IMAGE;
         STYLE = PUSHBUTTON+MOUSETRACK;
         SYSTEMCALLBACK = "[None]";
         INPUTCALLBACK = "[None]";
@@ -252,7 +252,7 @@ WINDOW
         FONT = NAME: "Generals", SIZE: 15, BOLD: 0;
         HEADERTEMPLATE = "MainButton";
         TOOLTIPDELAY = -1;
-        TEXT = "GUI:LockedDifficulty";
+        TEXT = "GUI:HardCaps";
         TEXTCOLOR = ENABLED:  255 255 255 255, ENABLEDBORDER:  0 0 0 255,
                     DISABLED: 62 64 92 255, DISABLEDBORDER: 31 32 47 255,
                     HILITE:   186 255 12 255, HILITEBORDER:   0 2 0 255;
@@ -291,7 +291,7 @@ WINDOW
                      BOTTOMRIGHT: 302 321,
                      CREATIONRESOLUTION: 800 600;
         NAME = "MainMenu.wnd:ButtonMedium";
-        STATUS = DISABLED+IMAGE;
+        STATUS = ENABLED+IMAGE;
         STYLE = PUSHBUTTON+MOUSETRACK;
         SYSTEMCALLBACK = "[None]";
         INPUTCALLBACK = "[None]";
@@ -300,7 +300,7 @@ WINDOW
         FONT = NAME: "Generals", SIZE: 15, BOLD: 0;
         HEADERTEMPLATE = "MainButton";
         TOOLTIPDELAY = -1;
-        TEXT = "GUI:LockedDifficulty";
+        TEXT = "GUI:MediumDifficultyCaps";
         TEXTCOLOR = ENABLED:  255 255 255 255, ENABLEDBORDER:  0 0 0 255,
                     DISABLED: 62 64 92 255, DISABLEDBORDER: 31 32 47 255,
                     HILITE:   186 255 12 255, HILITEBORDER:   0 2 0 255;
@@ -348,7 +348,7 @@ WINDOW
         FONT = NAME: "Generals", SIZE: 15, BOLD: 0;
         HEADERTEMPLATE = "MainButton";
         TOOLTIPDELAY = -1;
-        TEXT = "GUI:StandardDifficulty";
+        TEXT = "GUI:EasyCaps";
         TEXTCOLOR = ENABLED:  255 255 255 255, ENABLEDBORDER:  0 0 0 255,
                     DISABLED: 62 64 92 255, DISABLEDBORDER: 31 32 47 255,
                     HILITE:   186 255 12 255, HILITEBORDER:   0 2 0 255;
@@ -1109,7 +1109,7 @@ WINDOW
                      BOTTOMRIGHT: 302 322,
                      CREATIONRESOLUTION: 800 600;
         NAME = "MainMenu.wnd:ButtonChina";
-        STATUS = ENABLED+IMAGE;
+        STATUS = DISABLED+IMAGE;
         STYLE = PUSHBUTTON+MOUSETRACK;
         SYSTEMCALLBACK = "[None]";
         INPUTCALLBACK = "[None]";
@@ -1207,7 +1207,7 @@ WINDOW
                      BOTTOMRIGHT: 302 243,
                      CREATIONRESOLUTION: 800 600;
         NAME = "MainMenu.wnd:ButtonUSA";
-        STATUS = ENABLED+IMAGE;
+        STATUS = DISABLED+IMAGE;
         STYLE = PUSHBUTTON+MOUSETRACK;
         SYSTEMCALLBACK = "[None]";
         INPUTCALLBACK = "[None]";

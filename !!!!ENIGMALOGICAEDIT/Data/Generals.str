@@ -1,5 +1,5 @@
 Version:Format2
-"ROTR 1.87 PB 2.0 Babushka's Ultimate Balance Mod 5.1, ZH V%d.%d"
+"ROTR 1.87 PB 2.0, Babushka's Revenge RC1.0, ZH V%d.%d"
 END
 
 ACADEMY:Eva
@@ -259,6 +259,10 @@ END
 
 Buddy:StagingNotification
 "%hs is setting up a game"
+END
+
+CAMPAIGN:IstanbulMission
+"Trouble in Istanbul"
 END
 
 CAMPAIGN:CHALLENGE_0
@@ -2002,7 +2006,7 @@ CONTROLBAR:TimedChemoCharge
 END
 
 CONTROLBAR:TimedSolarCharge
-"&Timed Solar Charge"
+"&Timed Cryo Charge"
 END
 
 CONTROLBAR:TomahawkStorm
@@ -2618,7 +2622,7 @@ CONTROLBAR:TooltipFireSpyDrone
 END
 
 CONTROLBAR:TooltipFireSpySatScan
-"Reveals a target area.\n\n Countdown Timer: 2:00"
+"Reveals a target area.\n\n Countdown Timer: 2:25"
 END
 
 CONTROLBAR:TooltipFireSuperWeaponCashHack
@@ -2930,7 +2934,7 @@ CONTROLBAR:ToolTipGLAUpgradeAPRockets
 END
 
 CONTROLBAR:ToolTipGLAUpgradeArmTheMob
-"Inspires troops to fight for the righteous cause.\n Arms all Angry Mobs with AK-47s and Molotovs.\n\n 100% Increased damage for Angry Mobs. \n 100% Increased damage for Insurrection Angry Mobs. \n 25% increased movement speed for Terrorists\n 25% increased movement speed for Hijackers"
+"Inspires troops to fight for the righteous cause.\n Arms all Angry Mobs with AK-47s and Molotovs.\n\n 100% Increased damage for Angry Mobs. \n 25% increased movement speed for Terrorists\n 25% increased movement speed for Hijackers"
 END
 
 CONTROLBAR:TooltipGLAUpgradeBioBomb
@@ -3214,7 +3218,7 @@ CONTROLBAR:TooltipUpgradeChinaIsotopeStability
 END
 
 CONTROLBAR:TooltipUpgradeChinaMigAfterBurner
-"MiGs get a 15% speed bonus."
+"Install auxiliary afterburner components in jet aircraft. \n \n Increases speed of MiGs by 10% \n Increases speed of Hellfire Bombers by 10%."
 END
 
 CONTROLBAR:TooltipUpgradeChinaNeutronShells
@@ -3518,7 +3522,7 @@ CONTROLBAR:ToolTipGLAFireSaboteurCharge
 END
 
 CONTROLBAR:ToolTipEuropeFireSpyCharge
-"Place a timed solar charge.\n\n Strong vs. structures \n Weak vs. n/a"
+"Place a timed cryo charge.\n\n Strong vs. vehicles, structures \n Weak vs. n/a"
 END
 
 CONTROLBAR:ToolTipUSAFireRocketPods
@@ -3618,7 +3622,7 @@ CONTROLBAR:TooltipUSAUpgradeHumvLaser
 END
 
 CONTROLBAR:TooltipUSAUpgradeLaserMissiles
-"Equips USA aircraft with laser targetting systems.\n\n 25% Increased damage for Raptor missiles.\n 33% Increased damage for Viper missiles.\n 70% Increased damage for Hunter Killer missiles."
+"Equips USA aircraft with laser targetting systems.\n\n 25% Increased damage for Raptor missiles.\n 33% Increased damage for Viper missiles.\n 40% Increased damage for Hunter Killer missiles."
 END
 
 CONTROLBAR:TooltipUSAUpgradeLaserPointDefence
@@ -15138,7 +15142,7 @@ GUI:BioBirthplaceEntry_Pos9
 END
 
 GUI:BioBranch
-"Branch:"
+"Date:"
 END
 
 GUI:BioBranchEntry_Pos0
@@ -15398,11 +15402,11 @@ GUI:BioFeatures_USA
 END
 
 GUI:Biography
-"Biography"
+"Details"
 END
 
 GUI:BioName
-"Name:"
+"Operation:"
 END
 
 GUI:BioNameEntry_Pos0
@@ -15450,7 +15454,7 @@ GUI:BioNameEntry_Pos9
 END
 
 GUI:BioRank
-"Rank:"
+"Location:"
 END
 
 GUI:BioRankEntry_Pos0
@@ -15502,7 +15506,7 @@ GUI:BioRankEntry_Pos9
 END
 
 GUI:BioStrategy
-"Tactics:"
+"Difficulty:"
 END
 
 GUI:BioStrategyEntry_Pos0
@@ -15882,7 +15886,7 @@ GUI:CRCMismatch_new
 END
 
 GUI:CRCMismatch
-"Game has detected a mismatch. This means the multiplayer game has lost synchronization data between the players"
+"Game has detected a mismatch. This means the multiplayer game has lost synchronization data between the players."
 END
 
 GUI:CreateAccount
@@ -16370,15 +16374,15 @@ GUI:Generals
 END
 
 GUI:Generals_Challenge
-"CHALLENGE"
+"WORLD MAP"
 END
 
 GUI:Generals_Challenge_Title
-"Generals' Challenge"
+"World Map"
 END
 
 GUI:GeneralsChallenge
-"CHOOSE YOUR GENERAL"
+"CHOOSE YOUR OPERATION"
 END
 
 GUI:GeneralsOnline
@@ -19581,6 +19585,67 @@ LOSE:AllUnitsAndBuildings
 "INCOMING TRANSMISSION: \n All of our units and buildings have been destroyed \n We have been defeated, General. This time"
 END
 
+
+MAP:AYNavalBase
+"Aincrad Naval Base [AY]"
+End
+
+MAP:AYAriesWoodland
+"Aries Woodland [AY]"
+End
+
+MAP:AYArmedNeighbours
+"Armed Neighbours [AY]"
+End
+
+MAP:AYBorderlandsDesertion
+"Borderlands Desertion [AY]"
+End
+
+MAP:AYConference
+"Conference [AY]"
+End
+
+MAP:AYCountrySwing
+"Country Swing [AY]"
+End
+
+MAP:AYDeathscythesRampage
+"Deathscythes' Rampage [AY]"
+End
+
+MAP:AYGuildMaster
+"Guildmaster [AY]"
+End
+
+MAP:AYNorzagaray
+"Norzagaray Downstream [AY]"
+End
+
+MAP:AYOceanRiptide
+"Ocean Riptide [AY]"
+End
+
+MAP:AYReliableResources
+"Reliable Resources [AY]"
+End
+
+MAP:AYRundownDistrict
+"Rundown District [AY]"
+End
+
+MAP:AYSiegeIsland
+"Siege Island [AY]"
+End
+
+MAP:AYSouthernFalcon
+"Southern Falcon [AY]"
+End
+
+MAP:AYTournamentCoastline
+"Tournament Coastline [AY]"
+End
+
 MAP:AmmarSandCastle
 "Ammar's Sandcastle [JY]"
 End
@@ -19629,7 +19694,17 @@ MAP:WinterArena
 "Winter Arena [JY]"
 End
 
+MAP:TournamentMoon
+"Tournament Moon [BR] [C]"
+End
 
+MAP:HellFurnace
+"Hell's Furnace [BR]"
+End
+
+MAP:FinalFrontier
+"Final Frontier [BR][Gamemode]"
+End
 
 MAP:GameOfChance
 "Game of Chance [BR] [C]"
@@ -22756,6 +22831,22 @@ OBJECT:EuropeSpy
 "Spy"
 END
 
+CONTROLBAR:SpyBribeEnemy
+"&Bribe Enemy Units"
+END
+
+CONTROLBAR:ToolTipSpyBribeEnemy
+"Pay 1000$ to disable nearby units for 10 seconds. \n Does not reveal the Spy."
+END
+
+CONTROLBAR:FrankSuperWeaponBeacon
+"&Solar Satellite Beacon"
+END
+
+CONTROLBAR:ToolTipFrankSuperWeapon
+"Purchase a Superweapon Beacon at the current position.\n The beacon requires 20 seconds to prepare and 10 seconds to activate. \n If the beacon is destroyed, the superweapon is cancelled and the money is wasted. \n \n Does not reveal Frank."
+END
+
 OBJECT:UFO
 "Floating Disc"
 End
@@ -25517,11 +25608,11 @@ TOOLTIP:BattleHonorBlitzDisabled
 END
 
 TOOLTIP:BattleHonorCampaignChallenge
-"Challenge Campaign Honor \n Complete the Generals Challenge campaign to earn this honor \n Beat the campaign on Hard difficulty to earn the highest honor"
+"Global Operative Honor \n Complete any Global Operation to earn this honor \n Beat any Global Operation on Hard difficulty to earn the highest honor"
 END
 
 TOOLTIP:BattleHonorCampaignChallengeDisabled
-"Challenge Campaign Honor \n Complete the Generals Challenge campaign to earn this honor \n Beat the campaign on Hard difficulty to earn the highest honor"
+"Global Operative Honor \n Complete any Global Operation to earn this honor \n Beat any Global Operation on Hard difficulty to earn the highest honor"
 END
 
 TOOLTIP:BattleHonorCampaignChina
@@ -25834,7 +25925,7 @@ TOOLTIP:CancelButton
 END
 
 TOOLTIP:ChallengeButton
-"Generals' Challenge"
+"World Map"
 END
 
 TOOLTIP:ChatWindow
@@ -26802,7 +26893,7 @@ UPGRADE:LaserMissiles
 "Laser Guided Missiles"
 END
 
-UPGRADE:Migafterburners
+UPGRADE:MIGAfterburners
 "MiG Afterburners"
 END
 
@@ -28668,7 +28759,7 @@ SCIENCE:USASpySatellite
 END
 
 CONTROLBAR:ToolTipUSAScienceSpySatellite
-"Allows use of a spy satellite scan.\n\n Deploy from: Command Center"
+"Allows use of a spy satellite scan.\n\n Deploy from: Detention Camp"
 END
 
 CONTROLBAR:ConstructAmericaSpyDrone
@@ -28940,7 +29031,7 @@ CONTROLBAR:ConstructChinaJetInfernoMIG
 END
 
 CONTROLBAR:ToolTipChinaBuildInfernoMIG
-"Jet Bomber.\n Armed with a singular nuclear bomb. \n\n Strong vs. infantry, structures \n Weak vs. fighters, heavy anti-air"
+"Jet Bomber.\n Armed with dual nuclear bombs. \n\n Strong vs. infantry, structures \n Weak vs. fighters, heavy anti-air"
 END
 
 
@@ -29209,7 +29300,7 @@ OBJECT:ConstructRussiaHelipad
 END
 
 CONTROLBAR:ToolTipRussiaScienceVVSSupport
-"Request additional air support.\n\n Unlocks Sokol.\n Unlocks Smokedevil.\n Unlocks Berkut Barrel Roll"
+"Request additional air support.\n\n Unlocks Sokol.\n Unlocks Dustdevil.\n Unlocks Berkut Barrel Roll"
 END
 
 CONTROLBAR:SwitchToTunnelCommandSet
@@ -29541,7 +29632,7 @@ CONTROLBAR:ToolTipGLAScienceAirforce2
 END
 
 CONTROLBAR:ToolTipGLAScienceAirforce3
-"Request additional explosives for suicide aircraft.\n\n Unlocks ability to build a fourth airstrip.\n Increases the amount of planes for overwatch to 4. \n Unlocks Hook Gunship for Warlord General."
+"Request additional explosives for suicide aircraft.\n\n Unlocks ability to build a fourth airstrip.\n Increases the amount of planes for overwatch to 4."
 END
 
 CONTROLBAR:GLAOverwatch
@@ -30221,7 +30312,7 @@ CONTROLBAR:ConstructEuropeEuropeSolarisPowerLink
 END
 
 CONTROLBAR:ToolTipEUBuildSolarisPowerLink
-"Massive Solar Powered Reactor.\n Can be upgraded with 3 defence addons.\n Explodes violently when destroyed.\n\n Power Supplied: 60"
+"Massive Solar Powered Reactor.\n Can be upgraded with 2 defence addons.\n Grants access to the Minefield Scatter GP. \n \n Explodes violently when destroyed.\n\n Power Supplied: 60"
 END
 
 CONTROLBAR:ConstructEuropeSolarReactorBunker
@@ -30685,6 +30776,19 @@ END
 
 CONTROLBAR:ToolTipEUBuildDozer
 "Construction Vehicle.\n Builds and repairs European structures.\n Can plow through minefields unharmed.\n Clears mines. \n\n Produces 1 power. \n\n Strong vs. n/a \n Weak vs. infantry, vehicles"
+END
+
+
+OBJECT:EuropeWorkerDrone
+"Worker Drone"
+END
+
+CONTROLBAR:ConstructEuropeWorkerDrone
+"Wor&ker Drone"
+END
+
+CONTROLBAR:ToolTipEUBuildWorkerDrone
+"Worker Drone.\n Builds and repairs European structures. \n Can collect supplies. \n Immune to mines and can clear them. \n Can be crushed by standard vehicles. \n Slow but amphibious. \n Requires Power. \n\n Strong vs. n/a \n Weak vs. infantry, vehicles"
 END
 
 OBJECT:SupplyTrack
@@ -31934,7 +32038,7 @@ CONTROLBAR:FlashBangGrenadeMode
 END
 
 CONTROLBAR:ToolTipSwitchToUSAFlashBang
-"Switch to flashbang grenades.\n Can force basic infantry to surrender. \n Surrendered enemies can be apprehended for intel.\n\n Strong vs. infantry \n Weak vs. n/a"
+"Switch to flashbang grenades.\n Deals area-of-effect damage. \n Can clear garrisons. \n\n Strong vs. infantry \n Weak vs. n/a"
 END
 
 CONTROLBAR:LockdownEMPWeapon
@@ -33148,7 +33252,7 @@ CONTROLBAR:UpgradeAmericaFlashBangGrenade
 END
 
 CONTROLBAR:TooltipUSAUpgradeFlashBangGrenades
-"Distribute none-lethal grenades to basic infantry.\n Flash-Bangs can be used to subdue enemy infantry.\n Subdued infantry can be captured for intelligence.\n\n Allows Rangers to use Flash-Bang Grenades. \n Allows Green Berets to use Flash-Bang Grenades."
+"Distribute none-lethal grenades to basic infantry.\n Flash-Bangs can be used to clear garrisons.\n They also deal area-of-effect damage.\n\n Allows Rangers to use Flash-Bang Grenades. \n Allows Green Berets to use Flash-Bang Grenades."
 END
 
 FACTION:America
@@ -33477,6 +33581,14 @@ End
 
 OBJECT:Fanatic
 "Fanatic"
+End
+
+CONTROLBAR:CommandCenterSwitchToTaunts
+"Switch to &taunts"
+End
+
+CONTROLBAR:TooltipCommandCenterSwitchToTaunts
+"Switch to the taunts commands. \n All players can hear your taunts."
 End
 
 CONTROLBAR:CommandCenterSwitchToGeneralsPowers
@@ -34103,7 +34215,7 @@ CONTROLBAR:UpgradeAmericaIntelligenceOffice
 END
 
 CONTROLBAR:TooltipUSAUpgradeIntelligenceOffice
-"Expands the detention camp with an intelligence office.\n Allows interogation of captured enemy infantry.\n\n Allows to usage of the Spy Satellite.\n Allows usage of CIA Intellgence."
+"Expands the detention camp with an intelligence office.\n \n Allows the usage of Spy Satellite."
 END
 
 CONTROLBAR:CIAIntelligence
@@ -34359,7 +34471,7 @@ CONTROLBAR:OilSabotageShortCut
 END
 
 CONTROLBAR:TooltipFireOilSabotage
-"Damages effected enemy vehicles.\n Temporarily disables vehicles and structures.\n Causes effected vehicles to drop salvage.\n \n Countdown Timer: 5:00"
+"Damages effected enemy vehicles.\n Temporarily disables vehicles and structures.\n Causes effected vehicles to drop salvage.\n \n Countdown Timer: 4:00"
 END
 
 CONTROLBAR:GPSScramblerPower
@@ -34629,7 +34741,7 @@ UPGRADE:General_ChinaNuclear
 END
 
 CONTROLBAR:General_ChinaNuclear
-"Choose Chinese General Mau. \n Specialises in Weapons of Mass Destruction. \n\n Unique: \n Shenlong \n Nuke Cannon \n Han Gunship \n Nukeneer \n Advanced Power Plant \n Hellfire Bomber \n Disruptor"
+"Choose Chinese General Mau. \n Specialises in Weapons of Mass Destruction. \n\n Unique: \n Shenlong \n Nuke Cannon \n Han Gunship \n Nukeneer \n Advanced Power Plant \n Hellfire Bomber \n Disruptor \n MiG Afterburners"
 END
 
 UPGRADE:General_ChinaPolice
@@ -34693,7 +34805,7 @@ UPGRADE:General_ECADefense
 END
 
 CONTROLBAR:General_ECADefense
-"Choose Dutch General Willem. \n Specialises in Defensive Maneuvers. \n\n Unique: \n Grand Mortar \n Munition Bunker \n Gun Turret \n Defender Battlegroup \n Warhound \n Behemoth Dozer \n Solar Reactor"
+"Choose Dutch General Willem. \n Specialises in Defensive Maneuvers. \n\n Unique: \n Grand Mortar \n Munition Bunker \n Gun Turret \n Defender Battlegroup \n Warhound \n Solar Reactor"
 END
 
 UPGRADE:General_ECAMech
@@ -34701,7 +34813,7 @@ UPGRADE:General_ECAMech
 END
 
 CONTROLBAR:General_ECAMech
-"Choose German General Wolfgang. \n Specialises in Mechanized Assaults. \n\n Unique: \n Lynx APC \n Anvil Bot \n Mechanised Battlegroup \n Minotaur \n Wotan"
+"Choose German General Wolfgang. \n Specialises in Mechanized Assaults. \n\n Unique: \n Lynx APC \n Anvil Bot \n Mechanised Battlegroup \n Minotaur \n Wotan \n Spy"
 END
 
 UPGRADE:General_ECAArtillery
@@ -34774,15 +34886,15 @@ CONTROLBAR:ToolTipVolgaStunGrenades
 END
 
 OBJECT:RussianMiGBomber
-"Smokedevil"
+"Dustdevil"
 END
 
 CONTROLBAR:ConstructRussiaMiGBomber
-"S&mokedevil"
+"D&ustdevil"
 END
 
 CONTROLBAR:ToolTipRussiaBuildMiGBomber
-"Fast distraction aircraft. \n Armed with one large long-lasting smoke bomb. \n Smoke bombs cause enemies to randomly fire into them. \n\n Strong vs. structures \n Weak vs. fighters, heavy anti air units"
+"Thermobarbic Bomber.\n Armed with 4 mini thermobarbic bombs.\n Can fire smoke barrage to protect itself. \n Smoke causes enemies to randomly fire into it.\n\n Strong vs. buildings, infantry. \n Weak vs. anti-aircraft vehicles."
 END
 
 CONTROLBAR:UpgradeChemicallLabGammaStrikeGP
@@ -34807,38 +34919,55 @@ END
 
 
 
-GUI:BioNameEntry_USA
-"United States of America"
+GUI:BioNameEntry_Istanbul
+"Trouble in Istanbul"
 END
 
-GUI:BioDOBEntry_USA
-"07/10/1998"
+GUI:BioRankEntry_Istanbul
+"Istanbul, Turkey."
 End
 
-GUI:BioBirthplaceEntry_USA
-"San Antonio, Texas"
+GUI:BioStrategyEntry_Istanbul
+"1 Star"
 End
 
-GUI:BioStrategyEntry_USA
-"Aircraft & Drones"
+GUI:BioBranchEntry_Istanbul
+"27/07/2012"
 End
 
-GUI:BioRankEntry_USA
-"4 Star General"
+
+
+
+GUI:LANLobbyNoticeHeader
+"Welcome to Online Play!"
 End
 
-GUI:BioBranchEntry_USA
-"US Military"
+GUI:LANLobbyNotice
+"Before you play:\n - Make sure you have the latest version of ROTR v1.87 PB 2.0 and Babushka's Revenge.\n - This mod is best played with $10k starting cash and Superweapon Limit turned OFF.\n - Play fair and have fun! "
 End
 
-GUI:BioClassNumber_USA
-"07121969-HB"
+
+
+CONTROLBAR:GeneralsTaunts
+"Taunt"
 End
 
-GUI:BioDefeatedEntry_USA
-"Gosh darn it! You win this time.."
+CONTROLBAR:ToolTipTaunt01
+"Herb Laugh"
 End
 
-GUI:BioVictoriousEntry_USA
-"General, you could never defeat the glorious thunder of American aircraft."
+CONTROLBAR:ToolTipTaunt02
+"You played 2 hours to die like this?"
 End
+
+CONTROLBAR:ToolTipTaunt03
+"Heads up old boy, here I come ;)"
+End
+
+CONTROLBAR:ToolTipTaunt04
+"Do SOMETHING, you idiot."
+END
+
+CONTROLBAR:ToolTipTaunt05
+"Where is my mother?"
+END
