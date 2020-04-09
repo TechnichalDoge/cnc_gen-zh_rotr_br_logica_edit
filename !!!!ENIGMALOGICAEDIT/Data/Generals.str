@@ -34747,6 +34747,24 @@ CONTROLBAR:General_USAInfantry
 "Choose American General Thorn. \n Specialises in Elite Infantry. \n\n Unique: \n Green Beret \n Delta Force \n Pathfinder \n SEAL \n Humvee \n Little Bird \n Veteran Specialists \n Firebase"
 END
 
+
+UPGRADE:General_ChinaNuclearV
+"General Tsing Shi Tao"
+END
+
+UPGRADE:General_ChinaTank
+"General Ta Hun Kwai"
+END
+
+UPGRADE:General_ChinaInfantry
+"General ''Anvil'' Shin Fai"
+END
+
+UPGRADE:General_ChinaSpecialV
+"General ''Tigress'' Leiong Leang"
+END
+
+
 UPGRADE:General_ChinaRedArmy
 "Red Army General Chen"
 END
@@ -34770,6 +34788,26 @@ END
 CONTROLBAR:General_ChinaPolice
 "Choose Chinese General Jin. \n Specialises in Propganda & Urban Warfare. \n\n Unique: \n Battle Tortoise \n Praying Mantis \n Advanced MiG \n Stealth Hacker \n Stingray Drone \n Mogwai \n Police Transmitters \n Bixia ECM."
 END
+
+
+UPGRADE:General_GLADemo
+"General Rodall ''Demo'' Juhziz"
+END
+
+UPGRADE:General_GLAStealth
+"Prince Kassad"
+END
+
+UPGRADE:General_GLAToxin
+"Dr. Thrax"
+END
+
+UPGRADE:General_GLASalvage
+"General Mohmar 'Deathstrike'"
+END
+
+
+
 
 UPGRADE:General_GLATerror
 "Terror Cell Yusuuf"
